@@ -23,7 +23,7 @@ const messages = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Mini MessageBoard', messages: messages });
+  res.render('index', { title: 'Mini Message Board', messages: messages });
 });
 
 
