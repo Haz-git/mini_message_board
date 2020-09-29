@@ -6,15 +6,6 @@ block content
   ul
     each person in messages
       li= `${person.user} posted: "${person.text}" at -- ${person.added}`
-  
-  div
-    form(method='POST' action='/new')
-      div
-        label Name
-        input(type="text")
-      div
-        label Message Text
-        input(type="text")
-      button(type="submit") Submit!
+
 
   
